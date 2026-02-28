@@ -11,7 +11,7 @@
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://irisapp.ru/" />
   <link rel="canonical" href="https://irisapp.ru/" />
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%236366f1'/><circle cx='50' cy='50' r='22' fill='none' stroke='white' stroke-width='8'/><circle cx='50' cy='50' r='8' fill='white'/></svg>" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><defs><radialGradient id='g' cx='35%25' cy='30%25'><stop offset='0%25' stop-color='%23818cf8'/><stop offset='100%25' stop-color='%233730a3'/></radialGradient></defs><rect width='100' height='100' rx='22' fill='url(%23g)'/><g transform='translate(50,50)'><ellipse cx='0' cy='-16' rx='9' ry='20' fill='rgba(255,255,255,0.72)' transform='rotate(0)'/><ellipse cx='0' cy='-16' rx='9' ry='20' fill='rgba(255,255,255,0.72)' transform='rotate(60)'/><ellipse cx='0' cy='-16' rx='9' ry='20' fill='rgba(255,255,255,0.72)' transform='rotate(120)'/><ellipse cx='0' cy='-16' rx='9' ry='20' fill='rgba(255,255,255,0.72)' transform='rotate(180)'/><ellipse cx='0' cy='-16' rx='9' ry='20' fill='rgba(255,255,255,0.72)' transform='rotate(240)'/><ellipse cx='0' cy='-16' rx='9' ry='20' fill='rgba(255,255,255,0.72)' transform='rotate(300)'/><circle r='13' fill='url(%23g)'/><circle r='7' fill='rgba(255,255,255,0.95)'/><circle r='3' fill='url(%23g)'/></g></svg>" />
 
   <!-- Schema.org: SoftwareApplication -->
   <script type="application/ld+json">
@@ -415,7 +415,21 @@
 <!-- ─── Navigation ─────────────────────────────────────────────── -->
 <nav>
   <a href="#" class="logo">
-    <div class="logo-icon">◎</div>
+    <svg width="32" height="32" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" style="border-radius:8px;box-shadow:0 0 16px rgba(99,102,241,0.4)">
+      <defs><radialGradient id="lg" cx="35%" cy="30%"><stop offset="0%" stop-color="#818cf8"/><stop offset="100%" stop-color="#3730a3"/></radialGradient></defs>
+      <rect width="100" height="100" rx="22" fill="url(#lg)"/>
+      <g transform="translate(50,50)">
+        <ellipse cx="0" cy="-16" rx="9" ry="20" fill="rgba(255,255,255,0.72)" transform="rotate(0)"/>
+        <ellipse cx="0" cy="-16" rx="9" ry="20" fill="rgba(255,255,255,0.72)" transform="rotate(60)"/>
+        <ellipse cx="0" cy="-16" rx="9" ry="20" fill="rgba(255,255,255,0.72)" transform="rotate(120)"/>
+        <ellipse cx="0" cy="-16" rx="9" ry="20" fill="rgba(255,255,255,0.72)" transform="rotate(180)"/>
+        <ellipse cx="0" cy="-16" rx="9" ry="20" fill="rgba(255,255,255,0.72)" transform="rotate(240)"/>
+        <ellipse cx="0" cy="-16" rx="9" ry="20" fill="rgba(255,255,255,0.72)" transform="rotate(300)"/>
+        <circle r="13" fill="url(#lg)"/>
+        <circle r="7" fill="rgba(255,255,255,0.95)"/>
+        <circle r="3" fill="url(#lg)"/>
+      </g>
+    </svg>
     Iris
   </a>
   <div class="nav-links">
@@ -436,7 +450,7 @@
   <h1>Программа для автоматического<br><span class="accent">отбора фотографий</span> с AI</h1>
   <p class="hero-sub">
     Загрузите папку со съёмкой — Iris сам отсортирует тысячи фото за минуты.
-    Удалит смазанные, найдёт дубли, выделит лучшие кадры. Кулинг без ручной работы.
+    Удалит смазанные, найдёт дубли, выделит лучшие кадры. Без ручной работы.
   </p>
   <div class="cta-group">
     <a href="#download" class="btn-primary">
@@ -459,7 +473,7 @@
 <div class="stats">
   <div class="stat">
     <div class="stat-value">10×</div>
-    <div class="stat-label">быстрее ручного кулинга</div>
+    <div class="stat-label">быстрее ручного отбора</div>
   </div>
   <div class="stat">
     <div class="stat-value">300</div>
@@ -484,7 +498,7 @@
   <div class="features-grid" style="max-width:900px">
     <div class="pain-card">
       <div class="feature-icon" style="background:rgba(239,68,68,0.1);font-size:22px">😩</div>
-      <h3 style="color:#fca5a5">После свадьбы — 2000 фото</h3>
+      <h3 style="color:#fca5a5">После свадьбы — тысячи фото</h3>
       <p>Часами листаете кадр за кадром, выбираете из серий лучший, удаляете смазанные. На это уходит весь следующий день.</p>
     </div>
     <div class="pain-card">
@@ -513,11 +527,11 @@
   <h2>Iris подходит вам, если вы...</h2>
   <p class="section-sub" style="margin-bottom:48px"></p>
 
-  <div class="features-grid" style="max-width:900px">
+  <div class="features-grid" style="max-width:1100px">
     <div class="feature-card">
       <div class="feature-icon" style="background:rgba(251,191,36,0.12);font-size:22px">💒</div>
       <h3>Свадебный фотограф</h3>
-      <p>После каждой свадьбы — 1500–3000 кадров. Iris разбирает съёмку пока вы едете домой. Рейтинги сразу в Lightroom Classic.</p>
+      <p>После каждой свадьбы — тысячи кадров. Iris разбирает съёмку пока вы едете домой. Рейтинги сразу в Lightroom Classic.</p>
     </div>
     <div class="feature-card">
       <div class="feature-icon" style="background:rgba(16,185,129,0.12);font-size:22px">📸</div>
@@ -527,12 +541,22 @@
     <div class="feature-card">
       <div class="feature-icon" style="background:rgba(139,92,246,0.12);font-size:22px">🏢</div>
       <h3>Фотостудия и агентство</h3>
-      <p>Несколько фотографов, тысячи кадров в день. Студийный тариф без лимитов — весь поток обрабатывается автоматически.</p>
+      <p>Несколько фотографов, тысячи кадров в день. Весь поток обрабатывается автоматически без ручного участия.</p>
     </div>
     <div class="feature-card">
       <div class="feature-icon" style="background:rgba(236,72,153,0.12);font-size:22px">🌿</div>
       <h3>Фотограф-любитель</h3>
       <p>Накопились тысячи фото из путешествий? Бесплатный тариф — 300 фото в месяц, чтобы разобрать архив без спешки.</p>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon" style="background:rgba(245,158,11,0.12);font-size:22px">👗</div>
+      <h3>Портретный и fashion фотограф</h3>
+      <p>Съёмка в студии даёт десятки похожих кадров с разными выражениями. Iris выделит технически лучшие — вам останется выбрать по эмоции.</p>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon" style="background:rgba(20,184,166,0.12);font-size:22px">✈️</div>
+      <h3>Тревел-фотограф</h3>
+      <p>В поездке снимаете сотни кадров в день. Iris разберёт весь архив за вечер: оставит лучшие, уберёт дубли и нерезкие.</p>
     </div>
   </div>
 </section>
@@ -540,13 +564,13 @@
 <!-- ─── Features ─────────────────────────────────────────────────── -->
 <section class="section" id="features">
   <div class="section-label">Возможности</div>
-  <h2>Всё для профессионального кулинга</h2>
-  <p class="section-sub">От базового отбора до персональных AI-моделей, обученных на вашем стиле</p>
+  <h2>Всё для профессионального отбора фото</h2>
+  <p class="section-sub">От базового анализа до персональных AI-моделей, обученных на вашем стиле</p>
 
   <div class="features-grid">
     <div class="feature-card">
       <div class="feature-icon" style="background:rgba(99,102,241,0.12)">🧠</div>
-      <h3>AI-анализ резкости и экспозиции</h3>
+      <h3>AI-отбор по резкости и экспозиции</h3>
       <p>Алгоритм оценивает каждый кадр по резкости, экспозиции и уникальности — и автоматически присваивает ранги: ТОП, Хорошие, Брак.</p>
     </div>
     <div class="feature-card">
@@ -594,8 +618,8 @@
     <div class="step">
       <div class="step-num">2</div>
       <div>
-        <h3>Запустите AI-кулинг</h3>
-        <p>Нажмите «Запустить кулинг» — AI проанализирует каждый кадр и расставит оценки. 1000 фото — около 2–3 минут.</p>
+        <h3>Запустите AI-отбор</h3>
+        <p>Нажмите «Запустить отбор» — AI проанализирует каждый кадр и расставит оценки. 1000 фото — около 2–3 минут.</p>
       </div>
     </div>
     <div class="step">
@@ -644,7 +668,7 @@
       <div class="plan-desc">Идеально для знакомства с Iris</div>
       <ul class="plan-features">
         <li><span class="check">✓</span> 300 фото в месяц</li>
-        <li><span class="check">✓</span> AI-кулинг (резкость + экспозиция)</li>
+        <li><span class="check">✓</span> AI-отбор по резкости и экспозиции</li>
         <li><span class="check">✓</span> Группировка серий</li>
         <li><span class="check">✓</span> Экспорт XMP и CSV</li>
         <li><span class="check">✓</span> 3 пробных обучения AI-модели</li>
@@ -656,13 +680,13 @@
 
     <!-- Про -->
     <div class="plan-card featured">
-      <div class="plan-badge">Популярный</div>
+      <div class="plan-badge">🔥 Первые 100 пользователей</div>
       <div class="plan-name">Про</div>
       <div class="plan-price">990 ₽<span>/мес</span></div>
-      <div class="plan-desc">Для активных фотографов и ретушёров</div>
+      <div class="plan-desc" style="color:var(--green);font-weight:500">Цена фиксируется навсегда · Потом дороже</div>
       <ul class="plan-features">
-        <li><span class="check">✓</span> 5 000 фото в месяц</li>
-        <li><span class="check">✓</span> AI-кулинг (резкость + экспозиция)</li>
+        <li><span class="check">✓</span> Безлимитное количество фото</li>
+        <li><span class="check">✓</span> AI-отбор по резкости и экспозиции</li>
         <li><span class="check">✓</span> Группировка серий</li>
         <li><span class="check">✓</span> Экспорт XMP и CSV</li>
         <li><span class="check">✓</span> Плагин для Lightroom Classic</li>
